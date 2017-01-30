@@ -1,0 +1,107 @@
+.body{
+	margin:0px;
+	padding:0px;
+}
+
+.maincontainer{
+ width: auto;
+ padding: 0px;
+ margin: 0px;
+
+
+}
+
+.header{
+
+	height: 80px;
+	width:auto;
+	background-color: rgb(63,92,154);
+	
+
+}
+
+.facebooklogo{
+
+
+	height:50px;
+	width: 200px;
+	float: left;
+	padding: 21px;
+	margin-left: 130px;
+}
+
+
+.headlistcont{
+padding: 0px;
+
+float: right;
+margin-right: 150px;
+padding: 8px
+}
+
+
+
+.labels{
+
+	font-family: calibri;
+	color: white;
+}
+
+.headforget{
+	font-family: calibri;
+	color: powderblue;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.login{
+	background-color: rgb(66,103,178);
+	border:1px solid darkblue;
+	color: white;
+	font-family: Arial;
+	font-size: 13px;
+	padding-left:5px;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+
+.belowheader{
+
+	height: 600px;
+	width: 100%;
+	background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);
+	float: left;
+	}
+
+.people{
+
+height: 300px;
+width: 580px;
+padding: 10px;
+}
+
+.leftsection{
+
+	height: 500px;
+	width: 600px;
+	border:1px solid black;
+	margin-left: 25px;
+	
+	
+	margin-top: 40px;
+	float: left;
+}	
+
+.rightsection{
+	height: 500px;
+	width: 600px;
+	border:1px solid black;
+	padding: 1px;
+	margin-left: 100px;
+	margin-top: 40px;
+	float: left;
+
+
+}

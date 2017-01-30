@@ -1,0 +1,569 @@
+
+
+.maindiv{
+width:1349px;
+
+
+float: left;
+
+}
+
+.bannerdiv{
+
+float: left;
+
+width: 100%;
+
+
+}
+
+.bannerdiv img{
+	width: 100%;
+	overflow: none;
+}
+
+
+.belowbannerdiv{
+
+	background-color: rgb(35,33,36);
+	width: 100%;
+	height: 500px;
+
+	float: left;
+	
+	
+	
+}
+
+.verticalcontainerdiv{
+
+	position: absolute;
+	margin-left: 280px;
+	
+	width: 790px;
+	
+	
+
+
+}
+
+.logodiv{
+
+	float: left;
+}
+
+.parentlogodiv{
+
+float: left;
+
+}
+
+.logodiv img{
+	margin-top:15px;
+	margin-left: 50px;
+
+}
+
+.logolistdiv{
+
+	float: right;
+	margin-top: 25px;
+	margin-left: 60px;
+					
+}
+
+
+
+
+.logolistdiv ul li{
+	list-style-type: none;
+	display: inline;
+	text-decoration: none;
+	padding: 15px;
+
+
+	
+	
+
+}
+
+.logolistdiv ul a{
+
+	font-family: Arial;
+	color: white;
+	text-decoration: none;
+	padding:6px;
+	background-size:100% auto;
+	
+
+	
+}
+
+.logolistdiv ul li a:hover{
+	background-color:rgba(0,0,0,0.6);
+
+	border-radius:5px;
+
+	
+
+	
+}
+
+
+
+.logolistdiv ul  button{
+	
+	border-radius: 5px;
+	background-color: transparent;
+	
+
+}
+
+.parentslidediv{
+
+	
+	margin-top:85px;
+	height: 180px;
+}
+
+.spanhead{
+	color: rgb(237,190,193);
+}
+
+.parentcontentdiv{
+	
+	
+	
+}
+
+.leftcontent{
+   float: left;
+   color:rgb(237,190,193);
+   width: 750px;
+   padding: 0px;
+   margin-top: 40px;
+   margin-left: 10px;
+
+}
+
+.parentslidediv .leftcontent span{
+
+	font-family: arial;
+	color: white;
+	font-size: 30px;
+	text-align: left;
+}
+
+.parentslidediv .leftcontent p{
+    font-family: calibri;
+    font-size: 15px;
+    color:white;
+    padding: 1px;
+
+
+}
+
+.parentslidediv .leftcontent button{
+
+border:none;
+background: transparent;
+margin-top: 2px;
+margin-left: 0px;
+padding: 0px;
+
+}
+
+.parentslidediv .leftcontent a{
+	text-decoration:none;
+	padding: 5px;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-image:url(../Images/pinko/learnbg.png);
+	border-radius: 6px;
+	color: white;
+
+}
+
+
+.rightcontent{
+   float: right;
+   
+}
+
+.cityimg{
+
+
+padding:0px;
+border:1px solid black;
+border-radius: 8px;
+margin-top: 20px;
+margin-right: 15px;
+padding: 20px;
+background-color: rgba(0,0,0,0.3);
+
+}
+
+
+.content1div{
+
+
+	width: 550px;
+	float: left;
+	
+	
+}
+
+.welcomepinkodiv{
+	padding: 10px;
+	margin-left: 5px;
+	color: white;
+	font-family: arial;
+	font-size:30px;
+	margin-top: 35px; 
+}
+
+
+
+.pgraph{
+    padding:0px;
+    margin:0px;
+	text-align: left;
+	color: white;
+	font-family:calibri ;
+	font-size: 15px;
+	overflow: none;
+}
+
+
+
+.cushioncontent  p {
+    
+    
+	padding: 0px;
+	margin:0px;
+}
+
+.boxcontentdiv {
+
+	
+
+	
+	padding: 6px;
+	
+	overflow: auto;
+
+
+
+
+}
+
+.divscontent{
+
+	height:100px;
+	width: 252px;
+	
+	float: left;
+	display: inline;
+	color: white;
+	margin-left: 7px;
+	margin-top: 2px;
+	
+	
+}
+
+.minihead{
+font-size: 26px;
+float: left;
+width: 100%;
+
+}
+
+.wand{
+margin-top: 5px;	
+float: left;
+
+}
+
+.internaltext{
+    margin-top: 10px;
+	padding: 0px;
+	font-size: 14px;
+	font-family: calibri;
+	
+
+	
+	
+}
+
+.internaltext span{
+	
+}
+
+.button{
+	float: left;
+	margin-top: 0px;
+	background: transparent;
+	margin-top:3px;
+
+}
+
+.button button a{
+	background-color:black;
+	text-decoration: none;
+	padding:2px;
+	border-radius:10px;
+
+}
+
+.button button{
+
+	background: transparent;
+	border:none;
+	border-radius:10px;
+}
+
+.belows{
+
+	background-color: black;
+	float: left;
+	width: 100%;
+	height: 60px;
+
+	
+	}
+
+.belows p{
+	color: white;
+	text-align: center;
+}	
+
+.childcontentsdiv{
+ border-bottom:1px solid rgb(237,190,193);
+ display: block;
+ height: 250px;
+
+
+
+}
+
+.content1div .childcontentsdiv h1{
+
+	font-size:30px;
+	font-family: Arial;
+	padding: 5px;
+	margin:0px;
+}
+
+.platesimg{
+
+	float: left;
+padding:0px;
+border:5px solid black;
+margin-top: 3px;
+margin-left: 5px;	
+width: 153px;
+height: 165px;
+
+}
+
+.majorchildcontdiv{
+	margin-top: 12px;
+
+}
+
+.headingcontdiv{
+
+color: white;
+margin-top: 5px;
+
+
+
+}
+
+.headingcontdiv h1{
+	font-weight: normal;
+
+}
+
+.pgraphschild{
+
+	float: left;
+	width: 365px;
+	margin-left: 15px;
+	margin-top:0px;
+	color: rgb(237,190,193);
+	text-align: left;
+
+	
+}
+
+
+.pgraphschild label{
+	padding: 0px;
+	margin:0px;
+	font-family: calibri;
+	font-size: 15px;
+
+}
+
+.pgraphschild button{
+border:none;
+border-radius: 5px;
+margin-left: 200px;
+background: black;
+padding: 2px;
+width: 50px;
+
+
+}
+
+.pgraphschild a{
+	text-decoration: none;
+	color: rgb(237,190,193);
+	padding-right: 1px;
+	padding-top: 5px;
+}
+
+
+.content2div{
+	float: left;
+
+	
+	padding: 0px;
+	margin: 0px;
+	height: 757px;
+	width: 234px;
+}
+
+.contsdiv{
+
+}
+.content2div .headingcontdiv h1{
+	font-family: Calibri;
+	padding: 0px;
+	margin-top: 0px;
+
+	
+} 
+
+.imgrightdiv{
+	height: 170px;
+	width:220px;
+	margin-left: 4px;
+	float: left;
+	border:3px solid black;
+
+}
+
+.headingcont2div{
+color: white;
+height: 50px;
+margin: 0px;
+padding: 0px;
+width: 220px;
+
+}
+
+.headingcont2div h1{
+	font-weight: normal;
+	font-family: calibri;
+	padding: 0px;
+	margin-left: 1px;
+	margin-top: 2px;
+	font-size: 33px;
+}
+
+.content2diva{
+	margin-left: 5px;
+}
+
+.content2diva a{
+	text-decoration: none;	
+	color: white;
+	color: rgb(229,66,91);
+
+}
+
+.contactmaindiv{
+	height: 600px;
+	width: 100%;
+
+	float: left;
+}
+
+.contactleftdiv{
+height: 600px;
+width: 400px;
+
+float: left;
+
+}
+
+.contactleftdiv h4{
+margin-left: 10px;
+
+}
+
+.contactleftdiv form{
+	margin-left: 10px;
+	color: white;
+}
+
+.contactleftdiv form textarea{
+	resize: none;
+}
+
+.contactleftdiv button{
+	margin-left: 10px;
+	background: black;
+	border-radius: 5px;
+	border:none;
+	padding: 5px;
+}
+
+.contactleftdiv a{
+	text-decoration: none;
+
+}
+
+.contactrightdiv{
+
+	float: left;
+	height: 600px;
+	width: 390px;
+
+}
+
+.contactrightdiv h4{
+	margin-left: 8px;
+
+}
+
+.contactrightdiv img{
+	margin-left: 10px;
+	border:3px solid black;
+}
+
+.contactrightdiv h5{
+	font-size: 15px;
+    margin-left: 10px;
+    color: white;
+}
+
+.contactrightdiv h4{
+
+	color: white;
+	font-size: 20px;
+}
+
+
+.contactrightdiv pre{
+	margin-left: 10px;
+	color: rgb(237,190,193);
+}
+
+
+.contactleftdiv h4{
+	color: white;
+	font-size:18px;
+}
