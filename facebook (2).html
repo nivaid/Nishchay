@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="images/facebook.png">
+	<title>Facebook</title>
+	<style type="text/css">
+		body{
+
+			margin:0;
+			padding: 0;
+		}
+
+.header{
+
+width: 100%;
+height: 85px;
+background-color: #3b5998;
+
+}
+
+.logo{
+
+    float: left;
+	width: 30%;
+	margin-left: 150px;
+	padding-top: 20px;
+
+}
+
+.logo img{
+
+	height: auto;
+	width: auto;
+}
+.login{
+
+float: right;
+width: 50%; 
+color: white;
+font-size: 13px;
+font-family: arial;
+padding: 10px;
+
+
+}
+.login input{
+
+height: 20px;
+width: 150px;
+border: 0.1px groove black;
+margin-top: 0;
+
+}
+.login label{
+
+
+}
+
+.div1{
+
+float: left;
+margin-left: 90px;
+
+}
+.div2{
+
+	float: left;
+	margin-left: 30px;
+}
+.div3 a {
+
+float: right;
+display: inline-block;
+text-decoration: none;
+color: white;
+border: 1px solid #2b406e;
+background-color: #476bb8;
+padding: 3px;
+margin: 0;
+
+}
+.div3{
+
+  float: left;
+  margin-left: 30px;
+  margin-top: 28px;
+
+}
+.body{
+
+width: 100%;
+height: 800px;
+background: linear-gradient(to bottom, #ffffff 0%, #ccccff 100%);
+
+}
+.left-body{
+ 
+    float: left;
+	width: 30%;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.right-body{
+
+	width: 45%;
+   float: right;
+   margin-left: 100px;
+   
+}
+
+.right-body h1 {
+
+	font-size: 40px;
+	font-family: arial;
+	margin: 1px;
+	color: #3d3d29;
+
+}
+
+.right-body p{
+
+    font-family: arial;
+    font-size: 20px;
+	margin: 6px;
+	color: #2e2e1f;
+
+}
+.sign{
+
+    margin-top: 30px;
+
+}
+.sign input{
+
+	font-size: 18px;
+	font-family: arial;
+	width: 180px;
+	height: 30px;
+
+}
+
+.email input{
+
+    font-size: 18px;
+	font-family: arial;
+	width: 380px;
+	height: 30px;
+	margin-top: 10px;
+
+}
+.right-body label{
+
+	font-family: arial;
+	font-size: 20px;
+}
+
+
+	</style>
+</head>
+<body>
+      <div class="header">
+      	<div class="logo">
+      		<img src="Images/facebook/facebook.png">
+      	</div>
+      	<div class="login">
+      	 <div class="div1">
+          <label>Email or Phone</label><br>
+          <p><input type="text" name="username"></p>
+          </div>
+          <div class="div2">
+          <label>Password</label><br>
+          <p><input type="Password" name="Password"><br>
+          
+          <a href="" style="text-decoration: none; color: #a3b5db;margin-top: 1px;padding: 1px;">Forgotten your password?</a></p>
+          </div>
+          <div class="div3">
+          	<a href="#"><strong>Log In</strong></a>
+          </div>
+      	</div>
+      </div>
+
+   <div class="body">
+   	 <div class="left-body">
+   	 	<img src="Images/facebook/people.png">
+   	 </div>
+   	 <div class="right-body">
+       <h1>Create an account</h1>
+       <p>It's free and always will be.</p>
+       <div class="sign">
+       <input type="text" name="Fname" placeholder="First name" required>
+       <input type="text" name="sname" placeholder="Surname" required>
+       <div class="email">
+       	<input type="text" name="email_no" placeholder="Mobile number or email address" required>
+       	<input type="text" name="email_no" placeholder="Re-enter mobile number or email address" required>
+       	<input type="password" name="pass" placeholder="New password" required>
+       </div>
+       </div>
+       <br>
+       <label>Birthday</label>
+       <input type="date" name="dob" value="12-12-2012">
+   	 </div>
+   </div>
+</body>
+</html>

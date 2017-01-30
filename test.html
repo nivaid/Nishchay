@@ -1,49 +1,36 @@
+<!DOCTYPE html>
 <html>
 <head>
-<style>
-header{
-background-color:black;
-color:white;
-}
-
-footer{
-background-color:black;
-color:white;
-}
-
-.side_bar{
-float: left;
-    height: 800px;
-    width: 200px;
-    background-color: TOMATO;
-
-}
-
-.clearfix{
-clear: both;
-}
-</style>
-
+	<title></title>
 </head>
 <body>
-<header align="center">
-<h1>This is Header</h1>
-</header>
 
+<form>
+Number1 : <input type="text" name="n1" id="num1">
+Number2 : <input type="text" name="n2" id="num2">
+Result  : <input type="text" name="n3" id="disp">
+<input type="button" onclick="add()">
+</form>
 
+<p id="demo"></p>
 
-<div class="side_bar">
-<p>hi</p>
-</div>
+   <script type="text/javascript">
+    
+    var x,y,z;
+	
+	function add(){
+		x = parseInt(document.getElementById("num1").value);
+		y = parseInt(document.getElementById("num2").value);
+		z = x + y;
+		console.log(z);
+		document.getElementById("disp").value = z;
+		
+	}
 
-<div class="clearfix"></div>
+	
 
-
-
-<footer align="center">
-<h1>This is Footer</h1>
-</footer>
-
+	 
+	</script>
 
 </body>
 </html>
